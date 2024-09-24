@@ -9,7 +9,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+          colors: {
+            'red': 'red',
+          },
+          spacing: {
+            'h-screen': '100vh',
+          }
+
+    },
   },
   plugins: [],
 }
